@@ -20,7 +20,6 @@ public class Product {
     private double fats;
     private double carbohydrates;
 
-    // Constructors, getters and setters
     public Product() {}
 
     public Product(String name, int calories, double proteins, double fats, double carbohydrates) {
