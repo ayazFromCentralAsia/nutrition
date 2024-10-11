@@ -15,7 +15,7 @@ jobs:
       - name: Add SSH Key
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_KEY }}" > ~/etc/ssh/ayaz_test_key
+          echo "${{ secrets.SSH_KEY }}" > ~/etc/ssh/
           chmod 600 ~/.ssh/id_rsa
           ls
 #      - name: Set up Java
